@@ -30,7 +30,7 @@ export const brands: Brand[] = [
     founded: 1955,
     country: "Japan",
     description: "Yamaha Motor Company has been crafting exceptional motorcycles since 1955. Known for their innovative engineering and racing heritage, Yamaha has produced some of the most iconic bikes in motorcycling history, from the legendary RD350 to the modern MT series.",
-    logo: "images/brands/yamaha-logo.png",
+    logo: "https://images.unsplash.com/photo-1614165936126-2ed18e471b10?w=200&q=80",
     image: "images/brands/yamaha-hero.jpg",
     motorcycles: [
       {
@@ -54,7 +54,7 @@ export const brands: Brand[] = [
         power: "32 hp",
         weight: "170 kg",
         description: "The XT500 was the street-legal variant of the enduro racer TT500. Cyril Neveu won the first two Paris-Dakar Rally events in 1978 and 1979 with this legendary machine.",
-        image: "images/motorcycles/yamaha-xt500.jpg",
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
         isLegendary: true
       },
       {
@@ -66,7 +66,7 @@ export const brands: Brand[] = [
         power: "48 hp",
         weight: "103 kg",
         description: "Developed by motocross family patriarch Don Jones, the YZ250 has stayed in Yamaha's lineup since the '70s and is the longest-lived dirt bike model in history.",
-        image: "images/motorcycles/yamaha-yz250.jpg",
+        image: "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=800&q=80",
         isLegendary: true
       },
       {
@@ -91,7 +91,7 @@ export const brands: Brand[] = [
         power: "119 hp",
         weight: "189 kg",
         description: "The MT-09 features Yamaha's revolutionary CP3 engine with its distinctive inline-three configuration, delivering agile torque and thrilling performance.",
-        image: "images/motorcycles/yamaha-mt09.jpg",
+        image: "https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?w=800&q=80",
         isLegendary: false
       },
       {
@@ -103,7 +103,7 @@ export const brands: Brand[] = [
         power: "75 hp",
         weight: "182 kg",
         description: "The MT-07 offers the perfect balance of power and agility with its CP2 engine, making it one of the most popular middleweight naked bikes.",
-        image: "images/motorcycles/yamaha-mt07.jpg",
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
         isLegendary: false
       }
     ]
@@ -114,7 +114,7 @@ export const brands: Brand[] = [
     founded: 1948,
     country: "Japan",
     description: "Honda is the world's largest motorcycle manufacturer. From the iconic CB750 that defined the superbike era to the legendary Gold Wing, Honda has consistently pushed the boundaries of motorcycle engineering.",
-    logo: "images/brands/honda-logo.png",
+    logo: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&q=80",
     image: "images/brands/honda-hero.jpg",
     motorcycles: [
       {
@@ -126,7 +126,7 @@ export const brands: Brand[] = [
         power: "67 hp",
         weight: "218 kg",
         description: "The CB750 kick-started the superbike era. This four-cylinder motorcycle set new standards for performance and reliability that defined the industry.",
-        image: "images/motorcycles/honda-cb750.jpg",
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
         isLegendary: true
       },
       {
@@ -138,7 +138,7 @@ export const brands: Brand[] = [
         power: "4.5 hp",
         weight: "82 kg",
         description: "With over 100 million units sold, the Super Cub is the most popular motorcycle in history, renowned for simplicity, reliability, and affordability.",
-        image: "images/motorcycles/honda-supercub.jpg",
+        image: "https://images.unsplash.com/photo-1591637333184-19aa84b3e01f?w=800&q=80",
         isLegendary: true
       },
       {
@@ -174,7 +174,7 @@ export const brands: Brand[] = [
         power: "101 hp",
         weight: "226 kg",
         description: "The Africa Twin has been a leading bike in the adventure touring segment, capable of handling any terrain with exceptional reliability.",
-        image: "images/motorcycles/honda-africatwin.jpg",
+        image: "https://images.unsplash.com/photo-1594833230434-213ef2c395bc?w=800&q=80",
         isLegendary: true
       },
       {
@@ -186,7 +186,7 @@ export const brands: Brand[] = [
         power: "46 hp",
         weight: "190 kg",
         description: "The Rebel 500 strikes the perfect balance between power and stability, offering classic cruiser styling with modern reliability.",
-        image: "images/motorcycles/honda-rebel500.jpg",
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
         isLegendary: false
       }
     ]
@@ -197,7 +197,7 @@ export const brands: Brand[] = [
     founded: 1926,
     country: "Italy",
     description: "Ducati represents the pinnacle of Italian motorcycle craftsmanship. From the legendary 916 designed by Massimo Tamburini to the modern Panigale V4, Ducati bikes are works of art that dominate both streets and racetracks.",
-    logo: "images/brands/ducati-logo.png",
+    logo: "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=200&q=80",
     image: "images/brands/ducati-hero.jpg",
     motorcycles: [
       {
@@ -209,7 +209,7 @@ export const brands: Brand[] = [
         power: "80 hp",
         weight: "188 kg",
         description: "The 750 SS put Ducati on the map when Paul Smart won the Imola 200 in 1972, cementing Ducati's racing credibility with its desmodromic valve system.",
-        image: "images/motorcycles/ducati-750ss.jpg",
+        image: "https://images.unsplash.com/photo-1614165936126-2ed18e471b10?w=800&q=80",
         isLegendary: true
       },
       {
@@ -247,7 +247,7 @@ export const brands: Brand[] = [
         weight: "171 kg",
         topSpeed: "300 km/h",
         description: "Limited to just 1,500 units, the Desmosedici RR brought MotoGP technology to the streets with its carbon-fiber construction and racing pedigree.",
-        image: "images/motorcycles/ducati-desmosedici.jpg",
+        image: "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=800&q=80",
         isLegendary: true
       },
       {
@@ -260,7 +260,7 @@ export const brands: Brand[] = [
         weight: "175 kg",
         topSpeed: "300+ km/h",
         description: "The Panigale V4 marked Ducati's shift to V4 powerplants inspired by MotoGP, delivering 214 horsepower of pure racing technology.",
-        image: "images/motorcycles/ducati-panigale.jpg",
+        image: "https://images.unsplash.com/photo-1594833230434-213ef2c395bc?w=800&q=80",
         isLegendary: false
       },
       {
@@ -272,7 +272,7 @@ export const brands: Brand[] = [
         power: "75 hp",
         weight: "186 kg",
         description: "The Scrambler revival brought a fresh, fun-loving attitude to Ducati's lineup with retro-inspired design and accessible performance.",
-        image: "images/motorcycles/ducati-scrambler.jpg",
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
         isLegendary: false
       }
     ]
@@ -283,7 +283,7 @@ export const brands: Brand[] = [
     founded: 1966,
     country: "Japan",
     description: "Kawasaki has built a reputation for creating powerful, high-performance motorcycles. The Ninja series redefined sportbikes, while the Z series established the naked bike segment with raw power and aggressive styling.",
-    logo: "images/brands/kawasaki-logo.png",
+    logo: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&q=80",
     image: "images/brands/kawasaki-hero.jpg",
     motorcycles: [
       {
@@ -295,7 +295,7 @@ export const brands: Brand[] = [
         power: "82 hp",
         weight: "230 kg",
         description: "The Z1 set new standards for the sport bike segment with its powerful inline-four engine and became known as the 'King of the Road'.",
-        image: "images/motorcycles/kawasaki-z1.jpg",
+        image: "https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?w=800&q=80",
         isLegendary: true
       },
       {
@@ -308,7 +308,7 @@ export const brands: Brand[] = [
         weight: "223 kg",
         topSpeed: "241 km/h",
         description: "The first generation Ninja redefined the modern sportbike with its liquid-cooled engine, advanced suspension, and iconic lime green color.",
-        image: "images/motorcycles/kawasaki-ninja900.jpg",
+        image: "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=800&q=80",
         isLegendary: true
       },
       {
@@ -321,7 +321,7 @@ export const brands: Brand[] = [
         weight: "260 kg",
         topSpeed: "295 km/h",
         description: "The ZX-11 was the first motorcycle with a 1052cc ram-air engine, becoming the world's fastest production motorcycle of its time.",
-        image: "images/motorcycles/kawasaki-zx11.jpg",
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
         isLegendary: true
       },
       {
@@ -346,7 +346,7 @@ export const brands: Brand[] = [
         power: "127 hp",
         weight: "198 kg",
         description: "The Z1000 pioneered the street-fighter segment with aggressive styling and raw power, inspiring a new generation of naked bikes.",
-        image: "images/motorcycles/kawasaki-z1000.jpg",
+        image: "https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?w=800&q=80",
         isLegendary: true
       },
       {
@@ -358,7 +358,7 @@ export const brands: Brand[] = [
         power: "49 hp",
         weight: "168 kg",
         description: "The Ninja 400 is the perfect beginner-friendly sportbike, offering manageable power with full fairing styling and confidence-inspiring handling.",
-        image: "images/motorcycles/kawasaki-ninja400.jpg",
+        image: "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=800&q=80",
         isLegendary: false
       }
     ]
@@ -369,7 +369,7 @@ export const brands: Brand[] = [
     founded: 1923,
     country: "Germany",
     description: "BMW Motorrad has been crafting premium motorcycles since 1923. Known for their boxer engines, shaft drive, and exceptional build quality, BMW bikes combine German engineering precision with touring comfort.",
-    logo: "images/brands/bmw-logo.png",
+    logo: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&q=80",
     image: "images/brands/bmw-hero.jpg",
     motorcycles: [
       {
@@ -381,7 +381,7 @@ export const brands: Brand[] = [
         power: "8.5 hp",
         weight: "122 kg",
         description: "The R32 was BMW's first motorcycle, establishing the boxer engine configuration and shaft drive that would define the brand for a century.",
-        image: "images/motorcycles/bmw-r32.jpg",
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
         isLegendary: true
       },
       {
@@ -393,7 +393,7 @@ export const brands: Brand[] = [
         power: "50 hp",
         weight: "191 kg",
         description: "The R 80 G/S created the adventure motorcycle segment, winning the Paris-Dakar Rally and establishing BMW's off-road credentials.",
-        image: "images/motorcycles/bmw-r80gs.jpg",
+        image: "https://images.unsplash.com/photo-1594833230434-213ef2c395bc?w=800&q=80",
         isLegendary: true
       },
       {
@@ -405,7 +405,7 @@ export const brands: Brand[] = [
         power: "90 hp",
         weight: "239 kg",
         description: "The K100 was BMW's first inline-four motorcycle, featuring a unique longitudinal engine layout and fuel injection.",
-        image: "images/motorcycles/bmw-k100.jpg",
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
         isLegendary: true
       },
       {
@@ -430,7 +430,7 @@ export const brands: Brand[] = [
         power: "136 hp",
         weight: "249 kg",
         description: "The R 1250 GS is the ultimate adventure motorcycle, featuring BMW's ShiftCam technology and unmatched touring capability.",
-        image: "images/motorcycles/bmw-r1250gs.jpg",
+        image: "https://images.unsplash.com/photo-1594833230434-213ef2c395bc?w=800&q=80",
         isLegendary: false
       },
       {
@@ -442,7 +442,7 @@ export const brands: Brand[] = [
         power: "210 hp",
         weight: "199 kg",
         description: "The M 1000 R is BMW's most powerful naked bike, bringing M Performance technology to the street with aggressive styling.",
-        image: "images/motorcycles/bmw-m1000r.jpg",
+        image: "https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?w=800&q=80",
         isLegendary: false
       }
     ]
@@ -453,7 +453,7 @@ export const brands: Brand[] = [
     founded: 1903,
     country: "USA",
     description: "Harley-Davidson is an American icon, representing freedom and the open road. With their distinctive V-twin engines and cruiser styling, Harley bikes have inspired generations of riders worldwide.",
-    logo: "images/brands/harley-logo.png",
+    logo: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&q=80",
     image: "images/brands/harley-hero.jpg",
     motorcycles: [
       {
@@ -465,7 +465,7 @@ export const brands: Brand[] = [
         power: "40 hp",
         weight: "240 kg",
         description: "The Knucklehead introduced Harley's overhead valve engine, becoming an instant classic and one of the most collectible Harley models.",
-        image: "images/motorcycles/harley-knucklehead.jpg",
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
         isLegendary: true
       },
       {
@@ -477,7 +477,7 @@ export const brands: Brand[] = [
         power: "50 hp",
         weight: "256 kg",
         description: "The Sportster is Harley's longest-running model, offering a lighter, more agile ride while maintaining classic Harley character.",
-        image: "images/motorcycles/harley-sportster.jpg",
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
         isLegendary: true
       },
       {
@@ -489,7 +489,7 @@ export const brands: Brand[] = [
         power: "60 hp",
         weight: "320 kg",
         description: "The Electra Glide defined the touring motorcycle segment with its full fairing, hard bags, and long-distance comfort.",
-        image: "images/motorcycles/harley-electraglide.jpg",
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
         isLegendary: true
       },
       {
@@ -513,7 +513,7 @@ export const brands: Brand[] = [
         power: "115 hp",
         weight: "280 kg",
         description: "The V-Rod was Harley's first liquid-cooled motorcycle, developed with Porsche engineering for unprecedented performance.",
-        image: "images/motorcycles/harley-vrod.jpg",
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
         isLegendary: true
       },
       {
@@ -525,7 +525,7 @@ export const brands: Brand[] = [
         power: "105 hp",
         weight: "305 kg",
         description: "The Breakout combines drag bike styling with modern Milwaukee-Eight power, featuring a wide rear tire and stretched profile.",
-        image: "images/motorcycles/harley-breakout.jpg",
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
         isLegendary: false
       }
     ]
