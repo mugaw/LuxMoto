@@ -184,7 +184,7 @@ const Home = () => {
                   that redefines the naked bike segment.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <Link to="/brands/yamaha/mt09" className="btn-primary">
+                  <Link to="/brands/yamaha/yamaha-mt09" className="btn-primary">
                     View Details
                     <ArrowRight className="w-5 h-5" />
                   </Link>
