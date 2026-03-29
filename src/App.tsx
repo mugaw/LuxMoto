@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { store } from './store';
 import { AnimatePresence } from 'framer-motion';
@@ -14,7 +14,7 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <Provider store={store}>
-      <Router basename={import.meta.env.BASE_URL.replace(/\/$/, '')}>
+      <Router>
         <Layout>
           <AnimatePresence mode="wait">
             <Routes>
