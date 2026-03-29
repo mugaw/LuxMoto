@@ -62,7 +62,7 @@ const Home = () => {
             className="text-center"
           >
             <span className="inline-block text-[#B8B2F2] text-sm font-semibold tracking-[0.2em] uppercase mb-4">
-              Welcome to MuGaw
+              Welcome to LuxMoto
             </span>
             <h1 className="text-hero font-display font-black text-white uppercase tracking-tight mb-6">
               The Art of

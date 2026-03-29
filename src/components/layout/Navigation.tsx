@@ -46,7 +46,7 @@ const Navigation = ({ isScrolled }: NavigationProps) => {
               <Bike className="w-8 h-8 text-[#B8B2F2]" />
             </motion.div>
             <span className="font-display font-bold text-xl tracking-tight text-white">
-              MuGaw
+              LuxMoto
             </span>
           </Link>
 
