@@ -3,6 +3,7 @@ import { ArrowLeft, ArrowRight, Calendar, Gauge, Weight, Zap, MapPin, Trophy, Cl
 import PageTransition from '../components/animations/PageTransition';
 import FadeInView from '../components/animations/FadeInView';
 import { getMotorcycleById, getBrandById, brands } from '../data/motorcycles';
+import { getAssetPath } from '../utils/assets';
 
 const MotorcycleDetail = () => {
   const { brandId, motorcycleId } = useParams<{ brandId: string; motorcycleId: string }>();
@@ -48,7 +49,7 @@ const MotorcycleDetail = () => {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('${motorcycle.image}')`,
+            backgroundImage: `url('${getAssetPath(motorcycle.image)}')`,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#070A12] via-[#070A12]/50 to-[#070A12]/30" />
@@ -150,7 +151,7 @@ const MotorcycleDetail = () => {
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="w-24 h-24 rounded-full bg-white/5 border border-white/10 flex items-center justify-center flex-shrink-0">
                 <img
-                  src={brand.image}
+                  src={getAssetPath(brand.image)}
                   alt={brand.name}
                   className="w-16 h-16 object-contain"
                   onError={(e) => {
@@ -209,7 +210,7 @@ const MotorcycleDetail = () => {
                     <div className="motorcycle-card">
                       <div className="aspect-[4/3] overflow-hidden">
                         <img
-                          src={related.image}
+                          src={getAssetPath(related.image)}
                           alt={related.name}
                           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                           onError={(e) => {
@@ -260,7 +261,7 @@ const MotorcycleDetail = () => {
                     <div className="motorcycle-card">
                       <div className="aspect-[4/3] overflow-hidden">
                         <img
-                          src={similar.image}
+                          src={getAssetPath(similar.image)}
                           alt={similar.name}
                           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                           onError={(e) => {

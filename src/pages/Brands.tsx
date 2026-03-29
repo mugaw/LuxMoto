@@ -3,6 +3,7 @@ import { motion, type Variants } from 'framer-motion';
 import { ArrowRight, MapPin, Calendar } from 'lucide-react';
 import PageTransition from '../components/animations/PageTransition';
 import FadeInView from '../components/animations/FadeInView';
+import { getAssetPath } from '../utils/assets';
 import { brands } from '../data/motorcycles';
 
 const Brands = () => {
@@ -77,7 +78,7 @@ const Brands = () => {
                     {/* Image Side */}
                     <div className="aspect-square md:aspect-auto overflow-hidden">
                       <img
-                        src={brand.image}
+                        src={getAssetPath(brand.image)}
                         alt={brand.name}
                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                         onError={(e) => {

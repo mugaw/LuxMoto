@@ -4,6 +4,7 @@ import { motion, useScroll, useTransform, type Variants } from 'framer-motion';
 import { ArrowRight, ChevronRight, Play } from 'lucide-react';
 import PageTransition from '../components/animations/PageTransition';
 import FadeInView from '../components/animations/FadeInView';
+import { getAssetPath } from '../utils/assets';
 import { brands, getLegendaryMotorcycles } from '../data/motorcycles';
 
 const Home = () => {
@@ -142,7 +143,7 @@ const Home = () => {
               >
                 <div className="aspect-square flex items-center justify-center mb-4">
                   <img
-                    src={brand.image}
+                    src={getAssetPath(brand.image)}
                     alt={brand.name}
                     className="w-full h-full object-contain opacity-70 group-hover:opacity-100 transition-opacity"
                     onError={(e) => {
@@ -244,7 +245,7 @@ const Home = () => {
                 <div className="motorcycle-card">
                   <div className="aspect-[4/3] overflow-hidden">
                     <img
-                      src={motorcycle.image}
+                      src={getAssetPath(motorcycle.image)}
                       alt={motorcycle.name}
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                       onError={(e) => {
@@ -315,7 +316,7 @@ const Home = () => {
                 className="group block category-card"
               >
                 <img
-                  src={category.image}
+                  src={getAssetPath(category.image)}
                   alt={category.name}
                   className="w-full h-full object-cover"
                 />

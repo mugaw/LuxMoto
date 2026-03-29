@@ -14,7 +14,7 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <Provider store={store}>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <Layout>
           <AnimatePresence mode="wait">
             <Routes>

@@ -4,6 +4,7 @@ import { ArrowRight, Filter, Bike } from 'lucide-react';
 import PageTransition from '../components/animations/PageTransition';
 import FadeInView from '../components/animations/FadeInView';
 import { categories, getMotorcyclesByCategory, brands } from '../data/motorcycles';
+import { getAssetPath } from '../utils/assets';
 
 const Categories = () => {
   const { categoryId } = useParams<{ categoryId?: string }>();
@@ -91,7 +92,7 @@ const Categories = () => {
                       className="group block category-card"
                     >
                       <img
-                        src={category.image}
+                        src={getAssetPath(category.image)}
                         alt={category.name}
                         className="w-full h-full object-cover"
                         onError={(e) => {
@@ -157,7 +158,7 @@ const Categories = () => {
                         <div className="motorcycle-card h-full">
                           <div className="aspect-[4/3] overflow-hidden relative">
                             <img
-                              src={motorcycle.image}
+                              src={getAssetPath(motorcycle.image)}
                               alt={motorcycle.name}
                               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                               onError={(e) => {

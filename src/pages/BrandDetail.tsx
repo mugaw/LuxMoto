@@ -4,6 +4,7 @@ import { ArrowLeft, ArrowRight, Calendar, MapPin } from 'lucide-react';
 import PageTransition from '../components/animations/PageTransition';
 import FadeInView from '../components/animations/FadeInView';
 import { getBrandById } from '../data/motorcycles';
+import { getAssetPath } from '../utils/assets';
 
 const BrandDetail = () => {
   const { brandId } = useParams<{ brandId: string }>();
@@ -49,7 +50,7 @@ const BrandDetail = () => {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('${brand.image}')`,
+            backgroundImage: `url('${getAssetPath(brand.image)}')`,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[#070A12]/60 via-[#070A12]/40 to-[#070A12]" />
@@ -134,7 +135,7 @@ const BrandDetail = () => {
                     <div className="motorcycle-card h-full">
                       <div className="aspect-[4/3] overflow-hidden relative">
                         <img
-                          src={motorcycle.image}
+                          src={getAssetPath(motorcycle.image)}
                           alt={motorcycle.name}
                           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                           onError={(e) => {
@@ -285,7 +286,7 @@ const BrandDetail = () => {
                     <div className="motorcycle-card h-full">
                       <div className="aspect-[4/3] overflow-hidden">
                         <img
-                          src={motorcycle.image}
+                          src={getAssetPath(motorcycle.image)}
                           alt={motorcycle.name}
                           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                           onError={(e) => {
